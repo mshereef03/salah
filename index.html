@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>صفة صلاة النبي ﷺ — نسخة إلكترونية</title>
+    <meta name="description" content="النسخة الإلكترونية (PDF) من كتاب: صفة صلاة النبي ﷺ">
+    <style>
+      html, body {
+        margin: 0; padding: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Naskh Arabic", "Amiri", sans-serif;
+        background: #f8fafc; color: #0f172a;
+      }
+      .wrap {
+        max-width: 720px; margin: 6vh auto; padding: 24px;
+        background: #ffffff; border: 1px solid #e5e7eb; border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(15,23,42,0.06);
+      }
+      h1 { font-size: 1.8rem; margin: 0 0 0.75rem; }
+      p { line-height: 1.8; margin: 0 0 1rem; }
+      .btn {
+        display: inline-block; text-decoration: none; font-weight: 600;
+        padding: 12px 18px; border-radius: 10px; border: 1px solid #0f172a;
+        transition: transform .05s ease-in-out, box-shadow .15s ease-in-out, background .2s;
+      }
+      .btn:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(15,23,42,.12); }
+      .btn:active { transform: translateY(0); }
+      .btn-primary { background: #0f172a; color: #fff; border-color: #0f172a; }
+      .muted { color: #475569; font-size: .95rem; }
+      code { background: #f1f5f9; padding: 2px 6px; border-radius: 6px; }
+      .note { background:#f8fafc; border:1px dashed #cbd5e1; padding: .75rem 1rem; border-radius: 8px; }
+      .ltr { direction:ltr; unicode-bidi: bidi-override; }
+      footer { margin-top: 1.25rem; font-size: .9rem; color:#64748b; }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>صفة صلاة النبي ﷺ</h1>
+      <p class="muted">هذه صفحة بسيطة لاستضافة النسخة الإلكترونية (PDF) من الكتاب.</p>
+
+      <!-- Replace 'book.pdf' with your actual file name or GitHub Releases link.
+           If you place the PDF in this repository's root, keep it as 'book.pdf'. -->
+      <p style="margin: 1.25rem 0;">
+        <a class="btn btn-primary" href="book.pdf" target="_blank" rel="noopener">تحميل النسخة الإلكترونية (PDF)</a>
+      </p>
+
+      <div class="note">
+        <p>🔧 تعليمات سريعة:</p>
+        <ol>
+          <li>ارفع هذا الملف باسم <code>index.html</code> إلى مستودعك في GitHub (مثلاً <span class="ltr">salat-book</span>).</li>
+          <li>ضع ملف الـ PDF بجانب هذه الصفحة باسم <code>book.pdf</code> أو غيّر الرابط أعلاه ليتطابق مع اسم الملف.</li>
+          <li>من إعدادات المستودع → <b>Pages</b> → اختر <b>Deploy from branch</b>، ثم فرع <b>main</b> والمجلد <b>/ (root)</b> واحفظ.</li>
+          <li>خلال نصف دقيقة تقريباً ستحصل على رابط مثل: <span class="ltr">https://yourname.github.io/salat-book/</span></li>
+        </ol>
+      </div>
+
+      <p class="muted">
+        تلميح للاستدامة طويلة المدى: اجعل رمز الاستجابة السريعة (QR) يشير إلى رابطك الدائم على نطاقك الخاص
+        مثل <span class="ltr">https://salah.guide/pdf</span> ثم وجّه هذا الرابط إلى ملف GitHub Pages/Release.
+      </p>
+
+      <footer>© <span id="year"></span> — نسخة إلكترونية لكتاب: صفة صلاة النبي ﷺ</footer>
+    </main>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
